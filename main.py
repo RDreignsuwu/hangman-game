@@ -2,7 +2,6 @@ import random as rd
 import hangmanwords as hwords
 import hangman_draw as hd
 word=rd.choice(hwords.word_list)
-print(word)
 print(hd.logo)
 wordlen=len(word)
 blanks=["_"]*wordlen
